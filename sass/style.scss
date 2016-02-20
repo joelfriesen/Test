@@ -1,0 +1,54 @@
+/*!
+Name: Test for Latitude Geographics Group Ltd.
+Theme URI: http://www.geocortex.com
+Author: Joel Friesen 
+Author URI: http://joelf.com
+*/
+
+$contentbgcolor: rgba(white, 0.9);
+$darkcolor: #266fa0;
+$lightcolor: #4c9cd2;
+$splashcolor: darken(#efb211, 10%);
+$splashcolorbright: #ffb900;
+$body_link_color: #4c9cd2;
+$body_link_hover_color: $body_link_color * 1.7;
+$googlefont1: "Muli", sans-serif;
+$googlefont2: "Droid", serif;
+$number_of_columns: 4;
+$number_of_nav_items: 3;
+
+$nav_bg: #4c9cd2;
+$nav_color: white;
+$nav_hover_bg: rgba(255,255,255,.2);
+$nav_hover_color: white;
+$nav_dropdown_color: $nav_bg;
+$number_of_columns:4;
+
+$mobilebg: #3b3b3b;
+$master_margin_width: 30px;
+
+//Fullscreen
+$papawidth: 960px;
+
+//tablets landscape and small screens
+$mamabreak: 975px;
+$mamawidth: 800px;
+
+//tablets portrait all the way down to the smallest phones.
+$teenbreak: 820px;
+$teenwidth: 90%;
+
+@import "base";
+@import "common";
+@import "wordpress";
+@import "rslides";
+@import "uniform";
+@import "nav";
+@import "flexvideo";
+
+
+//layout and IE
+@import "layout";
+@import "print";
+@import "oldie";
+
