@@ -5,3 +5,4 @@
 A test
 
 This is a conflict
+word
